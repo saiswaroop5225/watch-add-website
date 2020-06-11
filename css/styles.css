@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  /* background-image: url(); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron{
+  border-radius: 0 0 0 0 ;
+  margin-bottom: 0;
+  background-color: #47494E;
+  color:white;
+
+}
+.img-fluid{
+  width:60%;
+  margin-top: 1.5rem;
+  margin-left: 8rem;
+}
+.nav-item{
+  padding-left:20px;
+  font-size: 1.2rem;
+}
+.navbar-brand{
+  font-size: 1rem;
+  text-align: center;
+}
+.navbar-img{
+  width:100px;
+  height:50px;
+}
+.navbar{
+  background-color: #ACA7CB;
+  margin-bottom: 0;
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  margin-top: 0;
+  background-image: url("wallpaper2.jpeg");
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
